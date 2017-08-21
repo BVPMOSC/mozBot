@@ -1,0 +1,14 @@
+{
+	"name": "mozBot",
+	"version": "0.0.1",
+	"description": "A Bot for Github",
+	"repository": "https://github.com/BVPMOSC/mozBot.git",
+	"logo": "https://i.pinimg.com/736x/94/69/a3/9469a36c70221a41de36862824c85ba2--robot-logo-design-logo-robot.jpg",
+	"keyword": ["node","express","github"],
+	"env": {
+		"GITHUB_TOKEN": {
+			"description": "A token generated for the account which will be used by the bot to access your account.",
+			"required": true
+		}
+    }
+}
