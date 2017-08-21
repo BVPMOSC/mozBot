@@ -1,0 +1,31 @@
+{
+  "name": "mozbot",
+  "version": "0.0.1",
+  "description": "A bot for github",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BVPMOSC/mozBot.git"
+  },
+  "keywords": [
+    "bot",
+    "bithub",
+    "issues",
+    "pr"
+  ],
+  "author": "Piyush Agrawal <me@ipiyush.com> (http://ipiyush.com)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BVPMOSC/mozBot/issues"
+  },
+  "homepage": "https://github.com/BVPMOSC/mozBot#readme",
+  "dependencies": {
+    "bl": "^1.2.1",
+    "express": "^4.15.4",
+    "github": "^9.3.1",
+    "jsonlint": "^1.6.2"
+  }
+}
